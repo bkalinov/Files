@@ -1,7 +1,7 @@
 package = "lua-resty-ip2geolocation"
 version = "1.1.0-0"
 source = {
-    url = "http://artifactory.sbtech.com:8081/artifactory/build_packages/Kong/lua-resty-ip2geolocation-1.1.0.tar.gz",
+    url = "https://github.com/bkalinov/Files/blob/a2c3ab9d4662f35abffdb0b0970b89320430c9dd/lua-resty-ip2geolocation-1.1.0.tar.gz",
     tag = "v1.1.0"
 }
 description = {
@@ -16,6 +16,6 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        ["resty.ip2geolocation"] = "lib/resty/ip2geolocation.lua"
+        ["resty.ip2geolocation"] = "resty/ip2geolocation.lua"
     }
 }
