@@ -1,7 +1,7 @@
 package = "lua-resty-ip2geolocation"
 version = "1.1.0-0"
 source = {
-    url = "https://github.com/bkalinov/Files/blob/deafa17d0a20a0742113e360936a0725f0aba56e/lua-resty-ip2geolocation-1.0.0.tar.gz",
+    url = "http://artifactory.sbtech.com:8081/artifactory/build_packages/Kong/lua-resty-ip2geolocation-1.1.0.tar.gz",
     tag = "v1.1.0"
 }
 description = {
